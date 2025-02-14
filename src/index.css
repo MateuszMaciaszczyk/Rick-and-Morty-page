@@ -1,0 +1,36 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-image: url('https://preview.redd.it/3840x2160-rick-and-morty-in-a-portal-v0-5ar7o65lpt2b1.jpg?auto=webp&s=2772aa3c097a9fc43988a644540b7f0caa1f958e');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+a {
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  color: white;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #02c39a;
+}
