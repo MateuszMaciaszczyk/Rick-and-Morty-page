@@ -50,7 +50,7 @@ const CharacterDetail = () => {
                 <p className="text-outline"><strong>Location:</strong> {character.location?.name}</p>
             </Segment>
             <Segment padded style={{ flex: 1 }}>
-                <Header as="h2" className="text-outline">Episodes</Header>
+                <Header as="h1" className="text-outline">Episodes</Header>
                 <List>
                     {episodes.map((episode, index) => (
                         <List.Item key={index}>

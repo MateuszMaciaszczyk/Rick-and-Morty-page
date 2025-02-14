@@ -59,10 +59,10 @@ const CharacterList = () => {
                     showLastButton
                     sx={{
                         '& .MuiPaginationItem-root': {
-                            fontSize: '1.25rem',
-                            color: '#05668d',
+                            fontSize: '2rem',
+                            color: '#ffffff',
                             marginTop: "2rem",
-                            className: "text-outline"
+                            marginBottom: "2rem",
                         },
                     }}
                 />
